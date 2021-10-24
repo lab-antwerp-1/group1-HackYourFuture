@@ -4,10 +4,10 @@
   "description": "",
   "scripts": {
     "format": "prettier --write ./",
-    "spell-check": "cspell  './**'",
+    "spell-check": "cspell  \"./**\"",
     "lint:ls": "ls-lint",
     "lint:md": "markdownlint --ignore node_modules --config ./.markdownlint.jsonc --fix ./ ",
-    "lint:css": "stylelint --fix './**/*.css'",
+    "lint:css": "stylelint --fix \"./styles/style.css\"",
     "validate:html": "html-validate",
     "accessibility": "achecker"
   },
