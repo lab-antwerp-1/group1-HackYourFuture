@@ -1,8 +1,14 @@
-# (project name)
+# Rebuilding HackYourFuture website
 
 <!-- describe your project -->
 
-## Getting Started
+## Group Members
+
+1. Aviv.
+2. Darin Hamouda.
+3. Daniel Álvarez.
+4. Maurice.
+5. Mohammed louzon.
 
 <!-- a guide to using this repository -->
 
