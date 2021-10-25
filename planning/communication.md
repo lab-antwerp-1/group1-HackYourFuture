@@ -37,12 +37,12 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 | Day       |    Aviv    | Maurice |  Darin  | Daniel |     |
 | --------- | :--------: | :-----: | :-----: | :----: | :-: |
-| Monday    | 13 - 16.30 |    -    | 13 - 20 | 9 - 18 |  -  |
-| Tuesday   | 13 - 16.30 | 12 - 18 | 13 - 20 | 9 - 18 |  -  |
-| Wednesday | 13 - 16.30 |    -    | 13 - 20 | 9 - 18 |  -  |
-| Thursday  | 13 - 16.30 | 12 - 18 | 13 - 20 | 9 - 18 |  -  |
-| Friday    | 13 - 16.30 | 12 - 18 | 13 - 20 | 9 - 18 |  -  |
-| Saturday  |     -      |    -    |    -    |   -    |  -  |
+| Monday    | 9-12, 18 - 24 |    -    | 13 - 20 | 9 - 18 |  -  |
+| Tuesday   | 9-12, 18 - 24 | 12 - 18 | 13 - 20 | 9 - 18 |  -  |
+| Wednesday | 13-24 |    -    | 13 - 20 | 9 - 18 |  -  |
+| Thursday  | 13-24 | 12 - 18 | 13 - 20 | 9 - 18 |  -  |
+| Friday    | 9-12, 18 - 24 | 12 - 18 | 13 - 20 | 9 - 18 |  -  |
+| Saturday  |    9-14    |    -    |    -    |   -    |  -  |
 
 ### How many hours everyone has per day
 
