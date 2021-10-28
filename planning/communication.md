@@ -2,13 +2,13 @@
 
 ## Tasks
 
-| Tasks                       | Responsible |  Dateline  |
-| --------------------------- | :---------: | :--------: |
-| Communication + constraints |   Daniel    | 24/10/2021 |
-| User personas               |             | 25/10/2021 |
-| Backlog                     |             | 26/10/2021 |
-| Backlog                     |             | 27/10/2021 |
-| Development strategy        |             | 28/10/2021 |
+| Tasks                       |  Responsible  |  Dateline  |
+| --------------------------- | :-----------: | :--------: |
+| Communication + constraints | Darin+ Daniel | 24/10/2021 |
+| User personas               |      all      | 25/10/2021 |
+| Backlog                     |               | 26/10/2021 |
+| Backlog                     |               | 27/10/2021 |
+| Development strategy        |               | 28/10/2021 |
 
 <!-- any general rules you'd like to set for your group? -->
 
