@@ -11,9 +11,8 @@
 ### Daryl (applicant)
 
 - **Bio**: She is a newcomer. She is a Dutch student. She speaks English and
-Portuguese. She has a background in literature.
-- **Needs/Goals**: Gaining a new skill-set. Changing
-  of career path.
+  Portuguese. She has a background in literature.
+- **Needs/Goals**: Gaining a new skill-set. Changing of career path.
 - **Motivations**: Course is in English. Mentorship into the labor market. High
   demand of web developers.
 - **Frustrations**: Access to the labor is difficult. Language barrier. Little
@@ -23,6 +22,7 @@ Portuguese. She has a background in literature.
 ---
 
 <!-- more personas ... -->
+
 ### Tami Rau (Current student)
 
 [Tami](https://www.semrush.com/persona/share/gLYx7UuFDgK6h5Z4PoPjRpVaxu2JD5RTCRtKMoJiBjA/)
