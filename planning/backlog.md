@@ -61,7 +61,6 @@
 > As a user I can apply to be a volunteer.
 
 - [ ] _there is an application form for volunteers_
-- [ ] _the application has a dropdown for coaches and mentors_
 
 > As a user I can donate to the organization.
 
