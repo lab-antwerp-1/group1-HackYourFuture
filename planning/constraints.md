@@ -6,6 +6,12 @@ _Some boundaries around our project._
 
 <!--  constraints coming from the outside that your team has no control over. these may include:  - project deadlines  - UI design or color schemes  - technologies (sometimes a client will tell you what to use)-->
 
+- Planning documents should be ready by 28th Oct.
+
+- Issues ready on the project's board by 29th Oct.
+
+- Must have's features ready by the 4th Nov.
+
 ## Internal: Involuntary
 
 <!--  constraints that come from within your team, and you have no control over. they may include:  - each of your individual skill levels  - amount of time available to work on the project-->
@@ -20,5 +26,6 @@ _Some boundaries around our project._
 
 - We will stick to the format, linting and all checks established.
 
-- Every PR should be reviewed and approved by at least 1 team member and Darin
-  before merging.
+- Every PR should be reviewed and approved by at least 1 team member.
+
+- We will apply basic responsive design.
