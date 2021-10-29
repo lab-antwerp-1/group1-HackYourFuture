@@ -2,13 +2,13 @@
 
 ## Tasks
 
-| Tasks                         | Responsible |  Dateline  |
-| ----------------------------- | :---------: | :--------: |
-| Update planning documentation |   Daniel    | 18/10/2021 |
-| Web development strategy      |    Darin    | 18/10/2021 |
-| Wireframe                     |    Aviv     | 18/10/2021 |
-|                               |             |            |
-|                               |             |            |
+| Tasks                       |  Responsible  |  Dateline  |
+| --------------------------- | :-----------: | :--------: |
+| Communication + constraints | Darin+ Daniel | 24/10/2021 |
+| User personas               |      all      | 25/10/2021 |
+| Backlog                     |               | 26/10/2021 |
+| Backlog                     |               | 27/10/2021 |
+| Development strategy        |               | 28/10/2021 |
 
 <!-- any general rules you'd like to set for your group? -->
 
@@ -16,9 +16,9 @@
 
 ## Communication Schedule
 
-| Day        |     How      | The topic of discussion                          |
-| ---------- | :----------: | ------------------------------------------------ |
-| 18/10/2021 | Discord/Zoom | User stories, Development strategy and Wireframe |
+| Day        |     How      | The topic of discussion                         |
+| ---------- | :----------: | ----------------------------------------------- |
+| 24/10/2021 | Discord/Zoom | User personas, Communication plan & constraints |
 
 ## Communication Channels
 
@@ -35,14 +35,12 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 ### Availability for calling/messaging
 
-| Day       |     Aviv      | Maurice |  Darin  | Daniel |     |
-| --------- | :-----------: | :-----: | :-----: | :----: | :-: |
-| Monday    | 9-12, 18 - 24 |    -    | 13 - 20 | 9 - 18 |  -  |
-| Tuesday   | 9-12, 18 - 24 | 12 - 18 | 13 - 20 | 9 - 18 |  -  |
-| Wednesday |     13-24     |    -    | 13 - 20 | 9 - 18 |  -  |
-| Thursday  |     13-24     | 12 - 18 | 13 - 20 | 9 - 18 |  -  |
-| Friday    | 9-12, 18 - 24 | 12 - 18 | 13 - 20 | 9 - 18 |  -  |
-| Saturday  |     9-14      |    -    |    -    |   -    |  -  |
+<<<<<<< HEAD | Day | Aviv | Maurice | Darin | Daniel | Mohmd | | --------- |
+:-----------: | :-----: | :-----: | :----: | :---: | | Monday | 9-12, 18 - 24
+| - | 13 - 20 | 9 - 18 | - | | Tuesday | 9-12, 18 - 24 | 12 - 18 | 13 - 20 | 9 -
+18 | - | | Wednesday | 13-24 | - | 13 - 20 | 9 - 18 | - | | Thursday | 13-24 |
+12 - 18 | 13 - 20 | 9 - 18 | - | | Friday | 9-12, 18 - 24 | 12 - 18 | 13 - 20 |
+9 - 18 | - | | Saturday | 9-14 | - | - | - | - |
 
 ### How many hours everyone has per day
 
