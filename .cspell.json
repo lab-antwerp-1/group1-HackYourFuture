@@ -1,6 +1,6 @@
 {
   "language": "en",
-  "words": ["Antwerpen", "Netifly", "Simonis"],
+  "words": ["Antwerpen", "Netifly", "Simonis", "Unica", "wireframe"],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
