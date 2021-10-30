@@ -29,8 +29,13 @@ body {
   font-family: var(--font-paragraph);
   font-size: 1.6rem;
   line-height: 1.8;
-
   /* Line height */
+}
+
+header {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: var(--btn-1);
 }
 
 /* GLOBALS */
@@ -95,4 +100,50 @@ img {
 
 .center-text {
   text-align: center;
+}
+
+/* Navigation bar */
+
+.nav__brdr {
+  border-top: 1px solid #cca43b;
+  padding-top: 1.5rem;
+}
+
+.link__brdr {
+  border-right: 1px solid #cca43b;
+}
+
+.nav__pillss .nav-link.btn,
+.nav__pillss .show > .nav-link {
+  font-size: 2rem;
+  color: #fff;
+  background-color: #cca43b;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+.aa {
+  color: var(--btn-1);
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.aa:hover {
+  color: var(--dark-1);
+  text-decoration: underline;
+}
+
+.logo__container {
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
 }
