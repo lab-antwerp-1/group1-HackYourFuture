@@ -13,4 +13,4 @@
 - dark 1: `242f40`
 - dark 2: `363636`
 
-  ![homepage wireframe](../assets/homepage-wireframe.jpg)
+  ![homepage wireframe](/assets/homepage-wireframe.png)
