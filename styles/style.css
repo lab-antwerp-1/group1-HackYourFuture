@@ -1,6 +1,7 @@
 :root {
   --font-heading: "Unica One", cursive;
-  --font-paragraph: "Crimson Text", serif;
+  --font-paragraph-1: "Crimson Text", serif;
+  --font-paragraph-2: "NTR", sans-serif;
   --bg-color-1: #fff;
   --bg-color-2: #e5e5e5;
   --btn-1: #cca43b;
@@ -146,4 +147,47 @@ img {
   padding-bottom: 1.5rem;
   margin-top: auto;
   margin-bottom: auto;
+}
+/* footer */
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(#cca43b, rgba(229, 229, 229, 0.493));
+  /* general settings for footer*/
+}
+.footer .footer__logo {
+  width: 14rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  /* settings for footer logo */
+}
+.footer h1 {
+  font-family: var(--font-heading);
+  color: var(--dark-1);
+  font-size: 200%;
+  /* settings for footer headline */
+}
+.footer .footer__address {
+  margin-right: 4rem;
+  font-family: var(--font-paragraph-2);
+  list-style: none;
+  color: var(--dark-2);
+  font-size: 240%;
+  line-height: 1.4rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  /* settings for footer address list */
+}
+.footer .footer__links {
+  width: 24%;
+  list-style: none;
+  padding-bottom: 0.8rem;
+  display: inline-flex;
+  margin-right: 4rem;
+  min-width: 28rem;
+  /* settings for footer social media links */
+}
+.footer li {
+  margin: 0 1rem;
 }
