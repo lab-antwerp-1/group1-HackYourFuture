@@ -194,3 +194,68 @@ img {
   margin: 0 1rem;
   /* setting margins between social media icons */
 }
+
+/* Style typography */
+p {
+    margin-top: 20px;
+    line-height: 1.3;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    text-align: justify;
+    font-family: "Crimson Text", serif;
+  }
+  
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  
+  /* Column */
+  .col {
+    flex: 50%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  
+  /* Column content container */
+  .col-content {
+    padding: 15px;
+    background: #ffffff;
+    box-shadow: 2px 2px 2px 1px rgba(199, 3, 3, 0.2);
+  }
+  
+/* Style typography */
+p {
+    margin-top: 20px;
+    line-height: 1.3;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    text-align: justify;
+    font-family: "Crimson Text", serif;
+  }
+  
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  
+  /* Column */
+  .col {
+    flex: 50%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  
+  /* Column content container */
+  .col-content {
+    padding: 15px;
+    background: #ffffff;
+    box-shadow: 2px 2px 2px 1px rgba(199, 3, 3, 0.2);
+  }
+  
