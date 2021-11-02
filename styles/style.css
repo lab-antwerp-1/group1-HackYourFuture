@@ -147,6 +147,7 @@ img {
 .intros__home {
     display: grid;
     gap: 4%;
+    margin-top: 15px;
 }
 
 @media (min-width: 768px) {
