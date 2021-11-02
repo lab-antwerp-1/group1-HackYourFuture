@@ -1,6 +1,16 @@
 {
   "language": "en",
-  "words": ["Antwerpen", "Netifly", "Simonis", "Unica", "wireframe"],
+  "words": [
+    "Antwerpen",
+    "Cantersteen",
+    "HYFB",
+    "Linkedin",
+    "Netifly",
+    "preconnect",
+    "Simonis",
+    "Unica",
+    "wireframe"
+  ],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
