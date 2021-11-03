@@ -7,12 +7,14 @@
   --btn-1: #cca43b;
   --dark-1: #242f40;
   --dark-2: #363636;
+
   /* Fonts and color-palette */
 }
 
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
   /* 1rem = 10px */
 }
 
@@ -20,6 +22,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+
   /* Keeps the size of the elements when changing margin, padding, etc. */
 }
 
@@ -27,6 +30,7 @@ body {
   font-family: var(--font-paragraph);
   font-size: 1.6rem;
   line-height: 1.8;
+
   /* Line height */
 }
 
@@ -40,17 +44,23 @@ header {
 
 .container {
   /* max-width: 120rem; */
+
   /* Max. size regardless resolution */
+
   /* width: 90%; */
+
   /* Width respecting side margins */
   width: min(90%, 120rem);
+
   /* This line contains the previous two that are commented out */
   margin: 0 auto;
+
   /* Centered display */
 }
 
 a {
   text-decoration: none;
+
   /* Gets rid of the default underline */
 }
 
@@ -139,6 +149,7 @@ img {
   margin-top: auto;
   margin-bottom: auto;
 }
+
 /* HOMEPAGE */
 .head__pic {
   height: 46rem;
@@ -148,14 +159,17 @@ img {
   background-image: url(https://raw.githubusercontent.com/lab-antwerp-1/group1-HackYourFuture/master/assets/banner-2.jpg);
   margin-top: 15px;
 }
+
 /* footer */
 
 .footer {
   width: 100%;
   text-align: center;
   background-image: linear-gradient(#cca43b, rgba(229, 229, 229, 0.493));
-  /* general settings for footer*/
+
+  /* general settings for footer */
 }
+
 .footer__logo {
   position: relative;
   width: 20%;
@@ -164,8 +178,10 @@ img {
   padding-bottom: 0.4rem;
   padding-left: 2%;
   margin-left: auto;
+
   /* settings for footer logo */
 }
+
 .footer .footer__headline {
   font-family: var(--font-heading);
   line-height: 100%;
@@ -173,8 +189,10 @@ img {
   font-size: 120%;
   padding-bottom: 0.6rem;
   padding-top: 1.2rem;
+
   /* settings for footer headline */
 }
+
 .footer .footer__address {
   font-family: var(--font-paragraph-2);
   list-style: none;
@@ -183,8 +201,10 @@ img {
   line-height: 100%;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
+
   /* settings for footer address list */
 }
+
 .footer .footer__links {
   position: relative;
   margin-right: auto;
@@ -194,12 +214,16 @@ img {
   padding-right: 2%;
   display: inline-flex;
   min-width: 34rem;
+
   /* settings for footer social media links */
 }
+
 .footer li {
   margin: 0 1rem;
+
   /* setting margins between social media icons */
 }
+
 @media (min-width: 900px) {
   .footer {
     display: flex;
