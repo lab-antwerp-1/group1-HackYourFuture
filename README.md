@@ -23,9 +23,9 @@
 - `npm run lint:ls`: Checks to make sure all folder and file names match the
   repository conventions.
 - `npm run lint:md`: Will lint all of the Markdown files in this repository.
-- `npm run lint:css`: Will lint all of the CSS files in this repository.
-- `npm run validate:html -- ./path/to/file.html`: Validates all HTML files in
-  the path provided.
+- `npm run validate:html -- ./path/to/file.html`npm run lint:css`: Will lint all
+  of the CSS files in this repository.
+- `: Validates all HTML files in the path provided.
 - `npm run spell-check`: Goes through all the files in this repository looking
   for words it doesn't recognize. Just because it says something is a mistake
   doesn't mean it is! It doesn't know every word in the world. You can add new
