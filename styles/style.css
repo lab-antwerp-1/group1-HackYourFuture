@@ -1,6 +1,7 @@
 :root {
     --font-heading: "Unica One", cursive;
-    --font-paragraph: "Crimson Text", serif;
+    --font-paragraph-1: "Crimson Text", serif;
+    --font-paragraph-2: "NTR", sans-serif;
     --bg-color-1: #fff;
     --bg-color-2: #e5e5e5;
     --btn-1: #cca43b;
@@ -182,4 +183,84 @@ img {
 .program__intro__text {
     text-align: justify;
     font-size: 2rem;
+}
+
+
+/* HOMEPAGE */
+
+.head__pic {
+    height: 46rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(https://raw.githubusercontent.com/lab-antwerp-1/group1-HackYourFuture/master/assets/banner-2.jpg);
+    margin-top: 15px;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(#cca43b, rgba(229, 229, 229, 0.493));
+    /* general settings for footer */
+}
+
+.footer__logo {
+    position: relative;
+    width: 20%;
+    min-width: 12%;
+    padding-top: 1.2rem;
+    padding-bottom: 0.4rem;
+    padding-left: 2%;
+    margin-left: auto;
+    /* settings for footer logo */
+}
+
+.footer .footer__headline {
+    font-family: var(--font-heading);
+    line-height: 100%;
+    color: var(--dark-1);
+    font-size: 120%;
+    padding-bottom: 0.6rem;
+    padding-top: 1.2rem;
+    /* settings for footer headline */
+}
+
+.footer .footer__address {
+    font-family: var(--font-paragraph-2);
+    list-style: none;
+    color: var(--dark-2);
+    font-size: 160%;
+    line-height: 100%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    /* settings for footer address list */
+}
+
+.footer .footer__links {
+    position: relative;
+    margin-right: auto;
+    width: 28%;
+    list-style: none;
+    padding-bottom: 0.4rem;
+    padding-right: 2%;
+    display: inline-flex;
+    min-width: 34rem;
+    /* settings for footer social media links */
+}
+
+.footer li {
+    margin: 0 1rem;
+    /* setting margins between social media icons */
+}
+
+@media (min-width: 900px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5%;
+    }
 }
