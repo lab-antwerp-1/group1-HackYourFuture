@@ -155,7 +155,51 @@ img {
   margin-bottom: auto;
 }
 
-/* HOMEPAGE */
+/* HOMEPAGE SECTION 1 */
+
+.intros__home {
+  display: grid;
+  gap: 4%;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .intros__home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+  }
+}
+
+.program__intro__tit {
+  text-align: center;
+  font-size: 5rem;
+  color: var(--dark-1);
+}
+
+.program__intro {
+  background-color: var(--bg-color-1);
+  padding: 2%;
+  border-radius: 0.5rem;
+  border: #cca43b solid 1px;
+}
+
+.hyf__intro {
+  background-color: var(--bg-color-2);
+  padding: 2%;
+  border-radius: 0.5rem;
+  border: #cca43b solid 1px;
+}
+
+.program__intro__text {
+  text-align: justify;
+  font-size: 2rem;
+  font-family: var(--font-paragraph-2);
+}
+
+/* HOMEPAGE BANNER */
+
 .head__pic {
   height: 46rem;
   background-size: cover;
@@ -163,6 +207,7 @@ img {
   background-position: center center;
   background-image: url(https://raw.githubusercontent.com/lab-antwerp-1/group1-HackYourFuture/master/assets/banner-2.jpg);
   margin-top: 15px;
+  margin-bottom: -5rem;
 }
 
 /* footer */
