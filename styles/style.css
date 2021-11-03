@@ -99,8 +99,8 @@ img {
 /* Navigation bar */
 
 .logo_size {
-  width: 13rem;
-  height: auto;
+    width: 13rem;
+    height: auto;
 }
 
 .nav__brdr {
@@ -148,7 +148,7 @@ img {
 }
 
 
-/* HOMEPAGE */
+/* HOMEPAGE SECTION 1 */
 
 .intros__home {
     display: grid;
@@ -188,10 +188,11 @@ img {
 .program__intro__text {
     text-align: justify;
     font-size: 2rem;
+    font-family: var(--font-paragraph-2);
 }
 
 
-/* HOMEPAGE */
+/* HOMEPAGE BANNER */
 
 .head__pic {
     height: 46rem;
@@ -200,6 +201,7 @@ img {
     background-position: center center;
     background-image: url(https://raw.githubusercontent.com/lab-antwerp-1/group1-HackYourFuture/master/assets/banner-2.jpg);
     margin-top: 15px;
+    margin-bottom: -5rem;
 }
 
 
