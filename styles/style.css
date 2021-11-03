@@ -229,6 +229,21 @@ img {
   /* setting margins between social media icons */
 }
 
+/* Maurice changes: Column content container */
+.col-content {
+  padding: 15px;
+  background: #fff;
+  box-shadow: 2px 2px 2px 1px rgba(199, 3, 3, 0.2);
+}
+
+/* Maurice changes: Column */
+.col {
+  flex: 50%;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
 @media (min-width: 900px) {
   .footer {
     display: flex;
