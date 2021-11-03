@@ -108,7 +108,7 @@ img {
 
 .logo_size {
   width: 13rem;
-  height: 9rem;
+  height: auto;
 }
 
 .nav__brdr {
