@@ -178,7 +178,7 @@ img {
     border: #cca43b solid 1px;
     -webkit-box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
     box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
-    background: #242F40;
+    background-color: var(--dark-1);
 }
 
 .hyf__intro {
@@ -188,7 +188,7 @@ img {
     border: #cca43b solid 1px;
     -webkit-box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
     box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
-    background: #242F40;
+    background-color: var(--dark-1);
 }
 
 .program__intro__text {
