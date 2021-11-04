@@ -279,6 +279,11 @@ img {
     }
 }
 
+.success__tit {
+    text-align: center;
+    font-size: 5rem;
+}
+
 .stories___container {
     width: min(90%, 150rem);
     margin: 0 auto;
