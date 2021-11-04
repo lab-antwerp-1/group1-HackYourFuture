@@ -209,6 +209,7 @@ img {
   margin-top: 15px;
   margin-bottom: -5rem;
 }
+
 /* contact text */
 .form__text {
   max-width: 36%;
@@ -226,12 +227,15 @@ img {
   font-family: var(--font-heading);
   margin-bottom: 2rem;
 }
+
 .form__par {
   font-family: var(--font-paragraph-2);
   color: var(--dark-1);
   font-size: 1.6rem;
 }
+
 /* contact text */
+
 /* contact form */
 .form {
   min-height: 60vh;
@@ -241,6 +245,7 @@ img {
   margin: 0 auto;
   padding-left: 3.2rem;
   padding-right: 3.2rem;
+
   /* global settings for form */
 }
 
