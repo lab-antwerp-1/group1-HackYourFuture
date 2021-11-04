@@ -7,12 +7,14 @@
   --btn-1: #cca43b;
   --dark-1: #242f40;
   --dark-2: #363636;
+
   /* Fonts and color-palette */
 }
 
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
   /* 1rem = 10px */
 }
 
@@ -20,6 +22,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+
   /* Keeps the size of the elements when changing margin, padding, etc. */
 }
 
@@ -27,6 +30,7 @@ body {
   font-family: var(--font-paragraph);
   font-size: 1.6rem;
   line-height: 1.8;
+
   /* Line height */
 }
 
@@ -40,17 +44,23 @@ header {
 
 .container {
   /* max-width: 120rem; */
+
   /* Max. size regardless resolution */
+
   /* width: 90%; */
+
   /* Width respecting side margins */
   width: min(90%, 120rem);
+
   /* This line contains the previous two that are commented out */
   margin: 0 auto;
+
   /* Centered display */
 }
 
 a {
   text-decoration: none;
+
   /* Gets rid of the default underline */
 }
 
@@ -177,8 +187,8 @@ img {
   padding: 2%;
   border-radius: 0.5rem;
   border: #cca43b solid 1px;
-  -webkit-box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
-  box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 12px 12px 7px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 12px 12px 7px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hyf__intro {
@@ -186,8 +196,8 @@ img {
   padding: 2%;
   border-radius: 0.5rem;
   border: #cca43b solid 1px;
-  -webkit-box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
-  box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 12px 12px 7px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 12px 12px 7px 0 rgba(0, 0, 0, 0.19);
 }
 
 .program__intro__text {
@@ -208,9 +218,11 @@ img {
   margin-top: 15px;
   margin-bottom: -30px;
 }
+
 /* contact us pics */
 
 /* contact us pics */
+
 /* contact text */
 
 .form__text {
@@ -246,10 +258,14 @@ img {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   column-gap: 2rem;
-  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
-    12px 12px 7px 0px rgba(0, 0, 0, 0);
-  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
-    12px 12px 7px 0px rgba(0, 0, 0, 0);
+  -webkit-box-shadow:
+    -10px 0 13px -7px #000,
+    10px 0 13px -7px #000,
+    12px 12px 7px 0 rgba(0, 0, 0, 0);
+  box-shadow:
+    -10px 0 13px -7px #000,
+    10px 0 13px -7px #000,
+    12px 12px 7px 0 rgba(0, 0, 0, 0);
   margin-top: 10rem;
 }
 
@@ -289,6 +305,7 @@ img {
 .story__subtit {
   text-align: center;
   margin-top: 1.5rem;
+
   /* color: var(--dark-2); */
   color: var(--btn-1);
 }
@@ -303,6 +320,7 @@ img {
   margin-top: 5rem;
   margin-bottom: 5rem;
   padding: 2rem;
+
   /* border: #cca43b solid 1px; */
   border-radius: 0.5rem;
 }
@@ -384,6 +402,7 @@ img {
   padding-left: 3.2rem;
   padding-right: 3.2rem;
   resize: none;
+
   /* global settings for form */
 }
 
@@ -392,6 +411,7 @@ img {
     padding-left: 6.4rem;
     padding-right: 6.4rem;
   }
+
   /* reflexive design for small screen */
 }
 
@@ -400,6 +420,7 @@ img {
     padding-left: 12.8rem;
     padding-right: 12.8rem;
   }
+
   /* reflexive design for large screen */
 }
 
@@ -412,12 +433,14 @@ img {
   box-shadow: 0 0.6rem 1.2rem rgba(36, 47, 64, 0.2);
   color: #363636;
   font-size: 1.4rem;
+
   /* settings for items in form */
 }
 
 .form__group label {
   font-size: 1.8rem;
   display: block;
+
   /* settings for labels */
 }
 
@@ -432,11 +455,13 @@ img {
   padding-left: 2rem;
   border-radius: 1.6rem;
   display: block;
+
   /* settings for form input boxes */
 }
 
 .form__detail input {
   max-width: 32rem;
+
   /* width settings for input boxes */
 }
 
@@ -451,6 +476,7 @@ img {
   appearance: none;
   border: none;
   outline: none;
+
   /* settings for drop menu */
 }
 
@@ -458,12 +484,14 @@ img {
   font-family: var(--font-heading);
   padding: 2rem;
   text-align: center;
+
   /* header settings */
 }
 
 .form__subject input {
   max-width: 100%;
   font-style: italic;
+
   /* settings for subject input box */
 }
 
@@ -481,6 +509,7 @@ img {
   border: none;
   outline: none;
   margin-bottom: 4rem;
+
   /* settings for message body */
 }
 
@@ -495,16 +524,19 @@ img {
   display: block;
   background-color: var(--btn-1);
   cursor: pointer;
+
   /* settings for button */
 }
 
 .form__button button:hover {
   background-color: var(--bg-color-1);
+
   /* settings for button hover */
 }
 
 .form__button button:active {
   background-color: var(--dark-2);
+
   /* settings for button press */
 }
 
@@ -517,6 +549,7 @@ img {
   width: 100%;
   text-align: center;
   background-image: linear-gradient(#cca43b, rgba(229, 229, 229, 0.493));
+
   /* general settings for footer */
 }
 
@@ -527,6 +560,7 @@ img {
   padding-top: 1.2rem;
   padding-bottom: 0.4rem;
   margin-left: auto;
+
   /* settings for footer logo */
 }
 
@@ -537,6 +571,7 @@ img {
   font-size: 100%;
   padding-bottom: 0.4rem;
   padding-top: 1.2rem;
+
   /* settings for footer headline */
 }
 
@@ -548,6 +583,7 @@ img {
   line-height: 100%;
   padding-top: 0.4rem;
   padding-bottom: 0.8rem;
+
   /* settings for footer address list */
 }
 
@@ -560,11 +596,13 @@ img {
   padding-right: 2%;
   display: inline-flex;
   min-width: 24rem;
+
   /* settings for footer social media links */
 }
 
 .footer li {
   margin: 0 1rem;
+
   /* setting margins between social media icons */
 }
 
@@ -606,6 +644,7 @@ img {
 .text__box {
   max-width: 50rem;
   height: 50rem;
+
   /* position: relative; */
   display: grid;
   display: inline-grid;
