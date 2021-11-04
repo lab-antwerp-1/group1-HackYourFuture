@@ -433,6 +433,14 @@ The website will be developed through the following issues:
 
 ---
 
+23- success stories.
+
+- As a user I can learn about the experiences of former HYF students.
+  - this will be on the home page.
+  - [ ] _there are pictures and texts about the experiences of former students._
+  - this will be on the `index.html` web page.
+  - this will be developed on the branch `23-home-success-stories`.
+
 ## Should Haves
 
 23- Projects database:
