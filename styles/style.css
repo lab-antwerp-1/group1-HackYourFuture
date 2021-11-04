@@ -210,6 +210,156 @@ img {
   margin-bottom: -5rem;
 }
 
+/* contact form */
+.form {
+  min-height: 60vh;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  resize: none;
+
+  /* global settings for form */
+}
+
+@media (min-width: 768px) {
+  .form {
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+  }
+
+  /* reflexive design for small screen */
+}
+
+@media (min-width: 1024px) {
+  .form {
+    padding-left: 12.8rem;
+    padding-right: 12.8rem;
+  }
+
+  /* reflexive design for large screen */
+}
+
+.form__group {
+  font-family: var(--font-paragraph-2);
+  background-image: linear-gradient(160deg, #ffff 40%, #242f40);
+  display: block;
+  border-radius: 2rem;
+  padding: 4rem;
+  box-shadow: 0 0.6rem 1.2rem rgba(36, 47, 64, 0.2);
+  color: #363636;
+  font-size: 1.4rem;
+
+  /* settings for items in form */
+}
+
+.form__group label {
+  font-size: 1.8rem;
+  display: block;
+
+  /* settings for labels */
+}
+
+.form__group input {
+  font-style: italic;
+  appearance: none;
+  margin-bottom: 2rem;
+  border: none;
+  outline: none;
+  background-color: var(--bg-color-2);
+  padding: 0.4rem;
+  padding-left: 2rem;
+  border-radius: 1.6rem;
+  display: block;
+
+  /* settings for form input boxes */
+}
+
+.form__detail input {
+  max-width: 32rem;
+
+  /* width settings for input boxes */
+}
+
+.form__drop select {
+  background-color: var(--bg-color-2);
+  width: auto;
+  padding: 0.4rem;
+  padding-left: 2rem;
+  border-radius: 1.6rem;
+  font-style: italic;
+  color: rgba(108, 117, 125, 0.8);
+  appearance: none;
+  border: none;
+  outline: none;
+
+  /* settings for drop menu */
+}
+
+.form__subject h1 {
+  font-family: var(--font-heading);
+  padding: 2rem;
+  text-align: center;
+
+  /* header settings */
+}
+
+.form__subject input {
+  max-width: 100%;
+  font-style: italic;
+
+  /* settings for subject input box */
+}
+
+.form__group .form__message textarea {
+  background-color: var(--bg-color-2);
+  width: 32rem;
+  max-width: 100%;
+  min-height: 10rem;
+  padding: 0.4rem;
+  padding-left: 2rem;
+  border-radius: 1.6rem;
+  resize: none;
+  font-style: italic;
+  appearance: none;
+  border: none;
+  outline: none;
+  margin-bottom: 4rem;
+
+  /* settings for message body */
+}
+
+.form__button button {
+  padding: 0.8rem;
+  border-radius: 1.6rem;
+  width: 20rem;
+  appearance: none;
+  border: none;
+  outline: none;
+  margin: auto;
+  display: block;
+  background-color: var(--btn-1);
+  cursor: pointer;
+
+  /* settings for button */
+}
+
+.form__button button:hover {
+  background-color: var(--bg-color-1);
+
+  /* settings for button hover */
+}
+
+.form__button button:active {
+  background-color: var(--dark-2);
+
+  /* settings for button press */
+}
+
+/* contact form */
+
 /* footer */
 
 .footer {
