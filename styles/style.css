@@ -7,14 +7,12 @@
   --btn-1: #cca43b;
   --dark-1: #242f40;
   --dark-2: #363636;
-
   /* Fonts and color-palette */
 }
 
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-
   /* 1rem = 10px */
 }
 
@@ -22,7 +20,6 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-
   /* Keeps the size of the elements when changing margin, padding, etc. */
 }
 
@@ -30,7 +27,6 @@ body {
   font-family: var(--font-paragraph);
   font-size: 1.6rem;
   line-height: 1.8;
-
   /* Line height */
 }
 
@@ -39,28 +35,21 @@ header {
   font-size: 2rem;
   color: var(--btn-1);
 }
-
 /* GLOBALS */
 
 .container {
   /* max-width: 120rem; */
-
   /* Max. size regardless resolution */
-
   /* width: 90%; */
-
   /* Width respecting side margins */
   width: min(90%, 120rem);
-
   /* This line contains the previous two that are commented out */
   margin: 0 auto;
-
   /* Centered display */
 }
 
 a {
   text-decoration: none;
-
   /* Gets rid of the default underline */
 }
 
@@ -103,7 +92,6 @@ img {
 .center-text {
   text-align: center;
 }
-
 /* Navigation bar */
 
 .logo_size {
@@ -154,7 +142,6 @@ img {
   margin-top: auto;
   margin-bottom: auto;
 }
-
 /* HOMEPAGE SECTION 1 */
 
 .intros__home {
@@ -175,29 +162,33 @@ img {
 .program__intro__tit {
   text-align: center;
   font-size: 5rem;
-  color: var(--dark-1);
+  color: var(--btn-1);
 }
 
 .program__intro {
-  background-color: var(--bg-color-1);
+  background-color: var(--dark-1);
   padding: 2%;
   border-radius: 0.5rem;
   border: #cca43b solid 1px;
+  -webkit-box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
 }
 
 .hyf__intro {
-  background-color: var(--bg-color-2);
+  background-color: var(--dark-1);
   padding: 2%;
   border-radius: 0.5rem;
   border: #cca43b solid 1px;
+  -webkit-box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
 }
 
 .program__intro__text {
   text-align: justify;
   font-size: 2rem;
   font-family: var(--font-paragraph-2);
+  color: var(--bg-color-1);
 }
-
 /* HOMEPAGE BANNER */
 
 .head__pic {
@@ -207,9 +198,280 @@ img {
   background-position: center center;
   background-image: url(https://raw.githubusercontent.com/lab-antwerp-1/group1-HackYourFuture/master/assets/banner-2.jpg);
   margin-top: 15px;
-  margin-bottom: -5rem;
+  margin-bottom: -30px;
+}
+/* contact text */
+
+.form__text {
+  max-width: 36%;
+  margin-top: 12rem;
+  margin-left: 10%;
+  padding: 2.8rem;
+  border-radius: 4rem;
+  background-image: linear-gradient(160deg, #ffff 40%, #cca43b);
+  box-shadow: 0 0.6rem 1.2rem rgba(36, 47, 64, 0.2);
 }
 
+.form__head {
+  font-size: 4rem;
+  color: var(--dark-2);
+  font-family: var(--font-heading);
+  margin-bottom: 2rem;
+}
+
+.form__par {
+  font-family: var(--font-paragraph-2);
+  color: var(--dark-1);
+  font-size: 1.6rem;
+}
+/* contact text */
+/* contact form */
+/* HOMEPAGE SUCCESS STORIES */
+
+.stories {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 2rem;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    12px 12px 7px 0px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    12px 12px 7px 0px rgba(0, 0, 0, 0);
+  margin-top: 10rem;
+}
+
+@media (min-width: 768px) {
+  .stories {
+    /* display: flex;
+        justify-content: space-between;
+        gap: 2rem; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .stories {
+    /* display: flex;
+        justify-content: space-between;
+        gap: 2rem; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+  }
+}
+
+.stories___container {
+  width: min(90%, 150rem);
+  margin: 0 auto;
+}
+
+.story__tit,
+.story__subtit {
+  text-align: center;
+  margin-top: 1.5rem;
+  /* color: var(--dark-2); */
+  color: var(--btn-1);
+}
+
+.story__text {
+  color: var(--bg-color-1);
+}
+
+.story {
+  text-align: justify;
+  margin: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  /* border: #cca43b solid 1px; */
+  border-radius: 0.5rem;
+}
+
+.story__pic__zeynep {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(/assets/success-stories/zeynep.jpg);
+}
+
+.story__pic__edouardo {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(/assets/success-stories/eduardo.jpg);
+}
+
+.story__pic__gita {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(/assets/success-stories/gita.jpg);
+}
+
+.story__pic__ramzi {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(/assets/success-stories/ramzi.jpg);
+}
+
+.story__zeynep,
+.story__gita {
+  background-color: var(--dark-2);
+}
+
+.story__edouardo,
+.story__ramzi {
+  background-color: var(--dark-2);
+}
+/* contact form */
+
+.form {
+  min-height: 60vh;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  resize: none;
+  /* global settings for form */
+}
+
+@media (min-width: 768px) {
+  .form {
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+  }
+  /* reflexive design for small screen */
+}
+
+@media (min-width: 1024px) {
+  .form {
+    padding-left: 12.8rem;
+    padding-right: 12.8rem;
+  }
+  /* reflexive design for large screen */
+}
+
+.form__group {
+  font-family: var(--font-paragraph-2);
+  background-image: linear-gradient(160deg, #ffff 40%, #242f40);
+  display: block;
+  border-radius: 2rem;
+  padding: 4rem;
+  box-shadow: 0 0.6rem 1.2rem rgba(36, 47, 64, 0.2);
+  color: #363636;
+  font-size: 1.4rem;
+  /* settings for items in form */
+}
+
+.form__group label {
+  font-size: 1.8rem;
+  display: block;
+  /* settings for labels */
+}
+
+.form__group input {
+  font-style: italic;
+  appearance: none;
+  margin-bottom: 2rem;
+  border: none;
+  outline: none;
+  background-color: var(--bg-color-2);
+  padding: 0.4rem;
+  padding-left: 2rem;
+  border-radius: 1.6rem;
+  display: block;
+  /* settings for form input boxes */
+}
+
+.form__detail input {
+  max-width: 32rem;
+  /* width settings for input boxes */
+}
+
+.form__drop select {
+  background-color: var(--bg-color-2);
+  width: auto;
+  padding: 0.4rem;
+  padding-left: 2rem;
+  border-radius: 1.6rem;
+  font-style: italic;
+  color: rgba(108, 117, 125, 0.8);
+  appearance: none;
+  border: none;
+  outline: none;
+  /* settings for drop menu */
+}
+
+.form__subject h1 {
+  font-family: var(--font-heading);
+  padding: 2rem;
+  text-align: center;
+  /* header settings */
+}
+
+.form__subject input {
+  max-width: 100%;
+  font-style: italic;
+  /* settings for subject input box */
+}
+
+.form__group .form__message textarea {
+  background-color: var(--bg-color-2);
+  width: 32rem;
+  max-width: 100%;
+  min-height: 10rem;
+  padding: 0.4rem;
+  padding-left: 2rem;
+  border-radius: 1.6rem;
+  resize: none;
+  font-style: italic;
+  appearance: none;
+  border: none;
+  outline: none;
+  margin-bottom: 4rem;
+  /* settings for message body */
+}
+
+.form__button button {
+  padding: 0.8rem;
+  border-radius: 1.6rem;
+  width: 20rem;
+  appearance: none;
+  border: none;
+  outline: none;
+  margin: auto;
+  display: block;
+  background-color: var(--btn-1);
+  cursor: pointer;
+  /* settings for button */
+}
+
+.form__button button:hover {
+  background-color: var(--bg-color-1);
+  /* settings for button hover */
+}
+
+.form__button button:active {
+  background-color: var(--dark-2);
+  /* settings for button press */
+}
+/* contact form */
 /* footer */
 
 .footer {
@@ -217,7 +479,6 @@ img {
   width: 100%;
   text-align: center;
   background-image: linear-gradient(#cca43b, rgba(229, 229, 229, 0.493));
-
   /* general settings for footer */
 }
 
@@ -228,7 +489,6 @@ img {
   padding-top: 1.2rem;
   padding-bottom: 0.4rem;
   margin-left: auto;
-
   /* settings for footer logo */
 }
 
@@ -239,7 +499,6 @@ img {
   font-size: 100%;
   padding-bottom: 0.4rem;
   padding-top: 1.2rem;
-
   /* settings for footer headline */
 }
 
@@ -251,7 +510,6 @@ img {
   line-height: 100%;
   padding-top: 0.4rem;
   padding-bottom: 0.8rem;
-
   /* settings for footer address list */
 }
 
@@ -264,24 +522,22 @@ img {
   padding-right: 2%;
   display: inline-flex;
   min-width: 24rem;
-
   /* settings for footer social media links */
 }
 
 .footer li {
   margin: 0 1rem;
-
   /* setting margins between social media icons */
 }
-
 /* Maurice changes: Column content container */
+
 .col-content {
   padding: 15px;
   background: #fff;
   box-shadow: 2px 2px 2px 1px rgba(199, 3, 3, 0.2);
 }
-
 /* Maurice changes: Column */
+
 .col {
   flex: 50%;
   padding: 10px;
@@ -297,7 +553,6 @@ img {
     gap: 5%;
   }
 }
-
 /* Volunteer web page */
 
 .h2__style {
@@ -312,6 +567,7 @@ img {
   height: 50rem;
   /* position: relative; */
   display: grid;
+
   display: inline-grid;
   grid-gap: 4%;
   -ms-flex-direction: column;
