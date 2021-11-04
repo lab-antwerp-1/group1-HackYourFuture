@@ -35,6 +35,7 @@ header {
   font-size: 2rem;
   color: var(--btn-1);
 }
+
 /* GLOBALS */
 
 .container {
@@ -92,6 +93,7 @@ img {
 .center-text {
   text-align: center;
 }
+
 /* Navigation bar */
 
 .logo_size {
@@ -142,7 +144,12 @@ img {
   margin-top: auto;
   margin-bottom: auto;
 }
+
 /* HOMEPAGE SECTION 1 */
+
+.presentation {
+  margin-bottom: 2rem;
+}
 
 .intros__home {
   display: grid;
@@ -189,6 +196,7 @@ img {
   font-family: var(--font-paragraph-2);
   color: var(--bg-color-1);
 }
+
 /* HOMEPAGE BANNER */
 
 .head__pic {
@@ -227,8 +235,11 @@ img {
   color: var(--dark-1);
   font-size: 1.6rem;
 }
+
 /* contact text */
+
 /* contact form */
+
 /* HOMEPAGE SUCCESS STORIES */
 
 .stories {
@@ -262,6 +273,11 @@ img {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 2rem;
   }
+}
+
+.success__tit {
+  text-align: center;
+  font-size: 5rem;
 }
 
 .stories___container {
@@ -298,7 +314,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/assets/success-stories/zeynep.jpg);
+  background-image: url(../assets/success-stories/zeynep.jpg);
 }
 
 .story__pic__edouardo {
@@ -308,7 +324,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/assets/success-stories/eduardo.jpg);
+  background-image: url(../assets/success-stories/eduardo.jpg);
 }
 
 .story__pic__gita {
@@ -318,7 +334,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/assets/success-stories/gita.jpg);
+  background-image: url(../assets/success-stories/gita.jpg);
 }
 
 .story__pic__ramzi {
@@ -328,7 +344,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/assets/success-stories/ramzi.jpg);
+  background-image: url(../assets/success-stories/ramzi.jpg);
 }
 
 .story__zeynep,
@@ -340,6 +356,23 @@ img {
 .story__ramzi {
   background-color: var(--dark-2);
 }
+
+/* HOMEPAGE PARTNERS */
+
+.partners__tit {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 4rem;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 /* contact form */
 
 .form {
@@ -474,7 +507,9 @@ img {
   background-color: var(--dark-2);
   /* settings for button press */
 }
+
 /* contact form */
+
 /* footer */
 
 .footer {
@@ -532,6 +567,7 @@ img {
   margin: 0 1rem;
   /* setting margins between social media icons */
 }
+
 /* Maurice changes: Column content container */
 
 .col-content {
@@ -539,6 +575,7 @@ img {
   background: #fff;
   box-shadow: 2px 2px 2px 1px rgba(199, 3, 3, 0.2);
 }
+
 /* Maurice changes: Column */
 
 .col {
@@ -556,6 +593,7 @@ img {
     gap: 5%;
   }
 }
+
 /* Volunteer web page */
 
 .h2__style {
@@ -570,7 +608,6 @@ img {
   height: 50rem;
   /* position: relative; */
   display: grid;
-
   display: inline-grid;
   grid-gap: 4%;
   -ms-flex-direction: column;
