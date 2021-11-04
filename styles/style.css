@@ -309,7 +309,8 @@ img {
 
 .text__box {
   max-width: 50rem;
-  /*height: 60rem;*/
+
+  /* height: 60rem; */
   position: relative;
   display: -ms-flexbox;
   display: inline-grid;
