@@ -259,13 +259,9 @@ img {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   column-gap: 2rem;
-  -webkit-box-shadow:
-    -10px 0 13px -7px #000,
-    10px 0 13px -7px #000,
+  -webkit-box-shadow: -10px 0 13px -7px #000, 10px 0 13px -7px #000,
     12px 12px 7px 0 rgba(0, 0, 0, 0);
-  box-shadow:
-    -10px 0 13px -7px #000,
-    10px 0 13px -7px #000,
+  box-shadow: -10px 0 13px -7px #000, 10px 0 13px -7px #000,
     12px 12px 7px 0 rgba(0, 0, 0, 0);
   margin-top: 10rem;
 }
@@ -645,8 +641,7 @@ img {
 .text__box {
   max-width: 50rem;
   height: 50rem;
-
-  /* position: relative; */
+  position: relative;
   display: grid;
   display: inline-grid;
   grid-gap: 4%;
@@ -674,14 +669,24 @@ img {
 
 .box__btn {
   font-family: var(--font-heading);
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #fff;
   background-color: #cca43b;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
 }
 
+.box__btn:hover {
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+  text-decoration: none;
+}
 .box__header {
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--btn-1);
 }
 
