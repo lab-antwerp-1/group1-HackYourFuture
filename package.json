@@ -7,7 +7,7 @@
     "spell-check": "cspell  \"./**\"",
     "lint:ls": "ls-lint",
     "lint:md": "markdownlint --ignore node_modules --config ./.markdownlint.jsonc --fix ./ ",
-    "lint:css": "stylelint --fix \"./styles/style.css\"",
+    "lint:css": "stylelint --fix \"./**/**.css\"",
     "validate:html": "html-validate",
     "accessibility": "achecker"
   },
