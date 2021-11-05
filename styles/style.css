@@ -603,44 +603,86 @@ img {
   /* setting margins between social media icons */
 }
 
-/* Maurice changes: Column content container */
+/* About Us Page - Section: Our Team */
 
-.col-content {
-  padding: 15px;
-  background: #fff;
-  box-shadow: 2px 2px 2px 1px rgba(199, 3, 3, 0.2);
+.div-flex-item h2 {
+  color: rgb(3, 4, 58);
 }
 
-/* Maurice changes: Column */
-
-.col {
-  flex: 50%;
-  padding: 10px;
-  margin-left: 20px;
-  margin-right: 50px;
-}
-
-.div-card h3 {
+#about-team-section h2 {
+  margin: 100px;
+  color: rgb(3, 4, 58);
   text-align: center;
   font-size: 25px;
 }
 
-@media (max-width: 1100px) {
-  #div-card-team {
-    flex-direction: column;
-  }
+.column-card-team {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 200px;
+  padding: 0 50px;
+}
 
-  .div-card {
-    margin: 20px 0;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 750px) {
+  .column-card-team {
+    width: 100%;
+    display: block;
+    float: none;
   }
+}
+
+.container-card-team {
+  padding: 0 16px;
+  margin: 10px;
+  text-align: center;
+}
+
+.container-card-team::after .row-card-team::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title-team-member {
+  color: grey;
+  font-size: 18px;
+}
+
+.button-contact-team {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(3, 4, 58);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+.button-contact-team:hover {
+  background-color: #555;
 }
 
 /* About Us Page - Section: Our Team - END */
 
 /* About Us Page - Section: What Is Hack Your Future About? */
 
-.div-flex-item h2 {
-  color: rgb(28, 9, 107);
+.title-section1 {
+  font-size: 17px;
+  margin-top: 100px;
+  color: rgb(3, 4, 58);
+  text-align: center;
 }
 
 .about-flex-container {
@@ -656,7 +698,7 @@ img {
   line-height: 30px;
   font-size: 17px;
   color: black;
-  box-shadow: rgba(55, 57, 59, 0.2) 0 8px 24px;
+  box-shadow: rgba(32, 36, 39, 0.2) 0 8px 24px;
   margin: 25px;
   padding: 35px;
   flex-basis: 400px;
@@ -730,6 +772,7 @@ img {
   box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
   text-decoration: none;
 }
+
 .box__header {
   font-family: var(--font-heading);
   font-size: 3rem;
