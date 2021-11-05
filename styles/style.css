@@ -205,6 +205,7 @@ img {
   margin-top: 15px;
   margin-bottom: -30px;
 }
+
 /* contact text */
 
 .form__text {
@@ -656,8 +657,7 @@ img {
 .text__box {
   max-width: 50rem;
   height: 50rem;
-
-  /* position: relative; */
+  position: relative;
   display: grid;
   display: inline-grid;
   grid-gap: 4%;
@@ -685,14 +685,24 @@ img {
 
 .box__btn {
   font-family: var(--font-heading);
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #fff;
   background-color: #cca43b;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
 }
 
+.box__btn:hover {
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+  text-decoration: none;
+}
 .box__header {
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--btn-1);
 }
 
