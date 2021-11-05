@@ -530,7 +530,7 @@ img {
   /* setting margins between social media icons */
 }
 
-/* Maurice changes */
+/* About Us Page - Section: Our Team */
 
 #about-team {
   margin: 100px 0;
@@ -540,7 +540,57 @@ img {
   margin-bottom: 70px;
   text-align: center;
   font-size: 30px;
-  color: crimson;
+  color: rgb(28, 9, 107);
+}
+
+#div-card-team {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.div-card {
+  padding: 30px 70px;
+}
+
+.img-card-photo {
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.div-card-description p {
+  text-align: center;
+  font-size: 17px;
+}
+
+.div-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+
+.div-card h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+@media (max-width: 1100px) {
+  #div-card-team {
+    flex-direction: column;
+  }
+  .div-card {
+    margin: 20px 0;
+  }
+}
+/* About Us Page - Section: Our Team - END*/
+
+/* About Us Page - Section: What Is Hack Your Future About? */
+
+.div-flex-item h2 {
+  color: rgb(28, 9, 107);
 }
 
 .about-flex-container {
@@ -564,52 +614,7 @@ img {
   flex-shrink: 1;
 }
 
-.div-flex-item h2 {
-  color: crimson;
-}
-
-#div-card-team {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-@media (max-width: 1100px) {
-  #div-card-team {
-    flex-direction: column;
-  }
-  .div-card {
-    margin: 20px 0;
-  }
-}
-
-.div-card {
-  padding: 30px 70px;
-}
-
-.img-card-photo {
-  width: 150px;
-  display: block;
-  margin: auto;
-}
-
-.div-card h3 {
-  text-align: center;
-  font-size: 25px;
-}
-
-.div-card-description p {
-  text-align: center;
-  font-size: 17px;
-}
-
-.div-card-icon {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 70%;
-  margin: auto;
-}
+/* About Us Page - Section: What Is Hack Your Future About? - END */
 
 @media (min-width: 768px) {
   .footer {
