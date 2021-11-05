@@ -635,6 +635,7 @@ img {
   .column-card-team {
     width: 100%;
     display: block;
+    float: none;
   }
 }
 
