@@ -529,20 +529,86 @@ img {
   margin: 0 1rem;
   /* setting margins between social media icons */
 }
-/* Maurice changes: Column content container */
 
-.col-content {
-  padding: 15px;
-  background: #fff;
-  box-shadow: 2px 2px 2px 1px rgba(199, 3, 3, 0.2);
+/* Maurice changes */
+
+#about-team {
+  margin: 100px 0;
 }
-/* Maurice changes: Column */
 
-.col {
-  flex: 50%;
-  padding: 10px;
-  margin-left: 20px;
-  margin-right: 50px;
+#about-team h2 {
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 30px;
+  color: crimson;
+}
+
+.about-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-top: 100px;
+}
+
+.div-flex-item {
+  text-align: justify;
+  line-height: 30px;
+  font-size: 17px;
+  color: black;
+  box-shadow: rgba(55, 57, 59, 0.2) 0 8px 24px;
+  margin: 25px;
+  padding: 35px;
+  flex-basis: 400px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.div-flex-item h2 {
+  color: crimson;
+}
+
+#div-card-team {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (max-width: 1100px) {
+  #div-card-team {
+    flex-direction: column;
+  }
+  .div-card {
+    margin: 20px 0;
+  }
+}
+
+.div-card {
+  padding: 30px 70px;
+}
+
+.img-card-photo {
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.div-card h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.div-card-description p {
+  text-align: center;
+  font-size: 17px;
+}
+
+.div-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
 }
 
 @media (min-width: 768px) {
@@ -553,6 +619,7 @@ img {
     gap: 5%;
   }
 }
+
 /* Volunteer web page */
 
 .h2__style {
