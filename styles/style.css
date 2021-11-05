@@ -113,6 +113,7 @@ img {
   font-size: 2rem;
   color: #fff;
   background-color: #cca43b;
+  margin-right: 0.5rem;
 }
 
 .btn:hover {
@@ -144,6 +145,10 @@ img {
 }
 /* HOMEPAGE SECTION 1 */
 
+.presentation {
+  margin-bottom: 2rem;
+}
+
 .intros__home {
   display: grid;
   gap: 4%;
@@ -170,8 +175,8 @@ img {
   padding: 2%;
   border-radius: 0.5rem;
   border: #cca43b solid 1px;
-  -webkit-box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
-  box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 12px 12px 7px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 12px 12px 7px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hyf__intro {
@@ -179,8 +184,8 @@ img {
   padding: 2%;
   border-radius: 0.5rem;
   border: #cca43b solid 1px;
-  -webkit-box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
-  box-shadow: 12px 12px 7px 0px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 12px 12px 7px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 12px 12px 7px 0 rgba(0, 0, 0, 0.19);
 }
 
 .program__intro__text {
@@ -224,18 +229,21 @@ img {
   color: var(--dark-1);
   font-size: 1.6rem;
 }
+
 /* contact text */
+
 /* contact form */
+
 /* HOMEPAGE SUCCESS STORIES */
 
 .stories {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   column-gap: 2rem;
-  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
-    12px 12px 7px 0px rgba(0, 0, 0, 0);
-  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
-    12px 12px 7px 0px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: -10px 0 13px -7px #000, 10px 0 13px -7px #000,
+    12px 12px 7px 0 rgba(0, 0, 0, 0);
+  box-shadow: -10px 0 13px -7px #000, 10px 0 13px -7px #000,
+    12px 12px 7px 0 rgba(0, 0, 0, 0);
   margin-top: 10rem;
 }
 
@@ -259,6 +267,11 @@ img {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 2rem;
   }
+}
+
+.success__tit {
+  text-align: center;
+  font-size: 5rem;
 }
 
 .stories___container {
@@ -295,7 +308,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/assets/success-stories/zeynep.jpg);
+  background-image: url(../assets/success-stories/zeynep.jpg);
 }
 
 .story__pic__edouardo {
@@ -305,7 +318,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/assets/success-stories/eduardo.jpg);
+  background-image: url(../assets/success-stories/eduardo.jpg);
 }
 
 .story__pic__gita {
@@ -315,7 +328,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/assets/success-stories/gita.jpg);
+  background-image: url(../assets/success-stories/gita.jpg);
 }
 
 .story__pic__ramzi {
@@ -325,7 +338,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/assets/success-stories/ramzi.jpg);
+  background-image: url(../assets/success-stories/ramzi.jpg);
 }
 
 .story__zeynep,
@@ -337,6 +350,23 @@ img {
 .story__ramzi {
   background-color: var(--dark-2);
 }
+
+/* HOMEPAGE PARTNERS */
+
+.partners__tit {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 4rem;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 /* contact form */
 
 .form {
@@ -364,6 +394,7 @@ img {
     padding-left: 12.8rem;
     padding-right: 12.8rem;
   }
+
   /* reflexive design for large screen */
 }
 
@@ -376,12 +407,14 @@ img {
   box-shadow: 0 0.6rem 1.2rem rgba(36, 47, 64, 0.2);
   color: #363636;
   font-size: 1.4rem;
+
   /* settings for items in form */
 }
 
 .form__group label {
   font-size: 1.8rem;
   display: block;
+
   /* settings for labels */
 }
 
@@ -396,11 +429,13 @@ img {
   padding-left: 2rem;
   border-radius: 1.6rem;
   display: block;
+
   /* settings for form input boxes */
 }
 
 .form__detail input {
   max-width: 32rem;
+
   /* width settings for input boxes */
 }
 
@@ -415,6 +450,7 @@ img {
   appearance: none;
   border: none;
   outline: none;
+
   /* settings for drop menu */
 }
 
@@ -422,12 +458,14 @@ img {
   font-family: var(--font-heading);
   padding: 2rem;
   text-align: center;
+
   /* header settings */
 }
 
 .form__subject input {
   max-width: 100%;
   font-style: italic;
+
   /* settings for subject input box */
 }
 
@@ -445,6 +483,7 @@ img {
   border: none;
   outline: none;
   margin-bottom: 4rem;
+
   /* settings for message body */
 }
 
@@ -459,19 +498,24 @@ img {
   display: block;
   background-color: var(--btn-1);
   cursor: pointer;
+
   /* settings for button */
 }
 
 .form__button button:hover {
   background-color: var(--bg-color-1);
+
   /* settings for button hover */
 }
 
 .form__button button:active {
   background-color: var(--dark-2);
+
   /* settings for button press */
 }
+
 /* contact form */
+
 /* footer */
 
 .footer {
@@ -530,46 +574,21 @@ img {
   /* setting margins between social media icons */
 }
 
-/* About Us Page - Section: Our Team */
+/* Maurice changes: Column content container */
 
-#about-team {
-  margin: 100px 0;
+.col-content {
+  padding: 15px;
+  background: #fff;
+  box-shadow: 2px 2px 2px 1px rgba(199, 3, 3, 0.2);
 }
 
-#about-team h2 {
-  margin-bottom: 70px;
-  text-align: center;
-  font-size: 30px;
-  color: rgb(28, 9, 107);
-}
+/* Maurice changes: Column */
 
-#div-card-team {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.div-card {
-  padding: 30px 70px;
-}
-
-.img-card-photo {
-  width: 150px;
-  display: block;
-  margin: auto;
-}
-
-.div-card-description p {
-  text-align: center;
-  font-size: 17px;
-}
-
-.div-card-icon {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 70%;
-  margin: auto;
+.col {
+  flex: 50%;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 50px;
 }
 
 .div-card h3 {
@@ -636,9 +655,10 @@ img {
 
 .text__box {
   max-width: 50rem;
-  /* height: 60rem; */
-  position: relative;
-  display: -ms-flexbox;
+  height: 50rem;
+
+  /* position: relative; */
+  display: grid;
   display: inline-grid;
   grid-gap: 4%;
   -ms-flex-direction: column;
@@ -676,14 +696,17 @@ img {
   color: var(--btn-1);
 }
 
-.card-img-bottom {
-  width: 100%;
-  height: 50%;
-  border-bottom-right-radius: calc(1rem - 1px);
-  border-bottom-left-radius: calc(1rem - 1px);
+.card-img-size {
+  width: 80%;
+  height: 20rem;
+  border-radius: 8px;
 }
 
 .empty__block {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.ver__align {
+  vertical-align: middle;
 }
