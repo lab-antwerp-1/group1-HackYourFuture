@@ -226,9 +226,13 @@ img {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   column-gap: 2rem;
-  -webkit-box-shadow: -10px 0 13px -7px #000, 10px 0 13px -7px #000,
+  -webkit-box-shadow:
+    -10px 0 13px -7px #000,
+    10px 0 13px -7px #000,
     12px 12px 7px 0 rgba(0, 0, 0, 0);
-  box-shadow: -10px 0 13px -7px #000, 10px 0 13px -7px #000,
+  box-shadow:
+    -10px 0 13px -7px #000,
+    10px 0 13px -7px #000,
     12px 12px 7px 0 rgba(0, 0, 0, 0);
   margin-top: 10rem;
 }
@@ -354,7 +358,9 @@ img {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
+
 /* CONTACT US PAGE */
+
 /* contact bg */
 .contact__bg {
   background-image: url(https://raw.githubusercontent.com/lab-antwerp-1/group1-HackYourFuture/master/assets/contact-us-bg.jpg);
@@ -362,7 +368,9 @@ img {
   padding-top: 6%;
   justify-content: flex;
 }
+
 /* contact bg */
+
 /* contact text */
 .form__text {
   max-width: 36%;
@@ -371,6 +379,7 @@ img {
   border-radius: 4rem;
   background-image: linear-gradient(160deg, #ffff 40%, #cca43b);
   box-shadow: 0 0.6rem 1.2rem rgba(36, 47, 64, 0.2);
+
   /* settings for text box */
 }
 
@@ -379,6 +388,7 @@ img {
   color: var(--dark-2);
   font-family: var(--font-heading);
   margin-bottom: 2rem;
+
   /* settings for header text */
 }
 
@@ -386,24 +396,32 @@ img {
   font-family: var(--font-paragraph-2);
   color: var(--dark-1);
   font-size: 1.6rem;
+
   /* settings for paragraph text */
 }
+
 @media (min-width: 1024px) {
   .form__par {
     font-size: 260%;
   }
+
   .form__head {
     font-size: 6rem;
   }
+
   /* text resize settings for larger screen */
 }
+
 @media (max-width: 460px) {
   .form__head {
     font-size: 2rem;
   }
+
   /* text resize settings for smaller screen */
 }
+
 /* contact text */
+
 /* contact pic */
 .contact__pic {
   display: flex;
@@ -416,7 +434,9 @@ img {
   box-shadow: 0 0.6rem 1.2rem rgba(36, 47, 64, 0.2);
   resize: none;
 }
+
 /* contact pic */
+
 /* contact form */
 
 .form {
@@ -574,16 +594,20 @@ img {
   .form__group {
     font-size: 300%;
   }
+
   .form__group h1 {
     font-size: 160%;
   }
+
   .form__group label {
     font-size: 100%;
   }
+
   /* reflexive design for small screen */
 }
 
 /* contact form */
+
 /* CONTACT US PAGE */
 
 /* FOOTER */
@@ -651,6 +675,7 @@ img {
 }
 
 /* FOOTER */
+
 /* Maurice changes: Column content container */
 
 .col-content {
@@ -778,6 +803,7 @@ img {
   box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
   text-decoration: none;
 }
+
 .box__header {
   font-family: var(--font-heading);
   font-size: 3rem;
