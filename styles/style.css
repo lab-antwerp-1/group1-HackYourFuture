@@ -731,7 +731,7 @@ img {
   justify-content: center;
   flex-flow: row wrap;
   margin-top: 30px;
-  background-color:white;
+  background-color: white;
 }
 
 .div-flex-art-1 {
@@ -762,7 +762,6 @@ img {
 }
 
 /* Application Page - Section: Presentation of the Programme - END */
-
 
 @media (min-width: 768px) {
   .footer {
